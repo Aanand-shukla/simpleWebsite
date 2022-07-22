@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+font-family: 'Playfair Display', serif;
+font-family: 'Source Sans Pro', sans-serif;
+}
+.header{
+    background-color: grey;
+}
+  nav ul{
+  text-align: center;
+ }
+ nav li{
+    display: inline-block;
+    margin: 15px;
+    padding: 10px;
+    color: black;
+ }
+ a{
+    display: inline-block;
+    margin: auto;
+    color: black;
+    text-decoration: none;
+ }
+ nav{
+    background-color: grey;
+    margin: 15px;
+ }
+ 
+ section{
+
+    margin: 20px 15px;
+ }
+  footer{
+    margin: 20px 15px;
+ }
+ section h4{
+    margin: 10px 10px;
+    border-bottom: 2px solid grey;
+ }
+  footer h4{
+    margin: 10px 10px;
+    border-bottom: 2px solid grey;
+ }
+ form{
+    text-align: center;
+    border: 2px solid grey;
+    margin: 20px 450px;
+    background-color: cadetblue;
+
+ }
+input[type=text]{
+    background-color: rgb(211, 218, 216);
+    color:red;
+    display: inline-block;
+}
+input[type=email]{
+    background-color: rgb(211, 218, 216);
+    color:red;
+    display: inline-block;
+}
+input[type=number]{
+    background-color: rgb(211, 218, 216);
+    color:red;
+    display: inline-block;
+}
+textarea{
+    background-color: rgb(211, 218, 216);
+    color:red;
+    display: inline-block;
+}
+input[type=submit]{
+    background-color: rgb(211, 218, 216);
+    color:red;
+    display: inline-block;
+}
+input{
+    display: inline-block;
+}
+label{
+    display: inline-block;
+}
+textarea{
+    display: inline-block;
+}
